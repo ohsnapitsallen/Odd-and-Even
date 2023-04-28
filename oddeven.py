@@ -11,3 +11,4 @@ def oddeven():
             else:
                 output_odd.write(str(integer) + "\n")
 #Start Program
+oddeven()
