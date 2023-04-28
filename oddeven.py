@@ -2,7 +2,9 @@
 def oddeven():
     #Open text file containing the numbers and output text files for separation
     with open("twenty.txt") as input_file, open("odd.txt", "a") as output_odd, open("even.txt", "a") as output_even:
-#Convert string to integer
+        #Convert string to integer
+        for line in input_file:
+            integer = int(line)
 #Separate odd and even numbers
 #Start Program
 
